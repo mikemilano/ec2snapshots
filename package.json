@@ -1,7 +1,7 @@
 {
   "name": "ec2snapshots",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A utility for creating snapshots, and removing them after a retention period defined in volume tags",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

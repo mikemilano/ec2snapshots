@@ -43,3 +43,24 @@ Separate multiple regions by commas.
 ```
 ec2snapshots us-west-1,us-west-2
 ```
+
+If you would like to see what would happen, without actually creating or deleting snapshots, use the `--dryrun` (or just `-dr`) flag.
+
+```
+ec2snapshots --dryrun us-west-1
+# OR
+ec2snapshots -d us-west-1
+```
+
+
+## Development
+
+If you want to develop with the source, you can simply execute `./bin/ec2snapshots.js us-west-1` to test it.
+
+If you would like to install it globally, based on your source, run the following from the project directory:
+
+```
+npm install . -g
+```
+
+This will replace the `ec2snapshots` executable with the latest from your current codebase.
