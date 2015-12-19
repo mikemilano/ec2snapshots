@@ -1,0 +1,19 @@
+{
+  "name": "ec2snapshots",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Milano (@mikemilano)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "aws-sdk": "~2.2.24",
+    "commander": "^2.9.0",
+    "moment": "^2.10.6"
+  },
+  "bin": {
+    "ec2snapshots": "bin/ec2snapshots.js"
+  }
+}
