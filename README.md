@@ -44,7 +44,10 @@ Separate multiple regions by commas.
 ec2snapshots us-west-1,us-west-2
 ```
 
-If you would like to see what would happen, without actually creating or deleting snapshots, use the `--dryrun` (or just `-dr`) flag.
+### Dry runs
+
+If you would like to see what would happen, without creating or deleting any snapshots,
+you can use the `--dryrun` flag.
 
 ```
 ec2snapshots --dryrun us-west-1
