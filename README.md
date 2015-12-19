@@ -1,11 +1,11 @@
-# ec2shapshots
+# ec2snapshots
 
-This is a utility script which creates snapshots and purges them after a set number of retention days
+This is a utility which creates snapshots and purges them after a set number of retention days
 defined in AWS volume tags.
 
 Each time the script is run, it will do the following for each volume which contains a `Snapshot` tag:
  - Purge snapshots older than the retention period (number of days defined as the value in the tag)
- - Create a new snapshot (Description format: <volume-id>_<volume-name>_YYYYMMDDHHSS)
+ - Create a new snapshot (Description format: [volume-id]_[volume-name]_YYYYMMDDHHSS)
  
 
 ## Installation
