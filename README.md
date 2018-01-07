@@ -16,13 +16,17 @@ Each time the script is run, it will do the following for each volume which cont
 npm install -g ec2snapshots
 ```
 
-### 2) Add your credentials to `~/aws/credentials`
+### 2) Add your credentials to `~/.aws/credentials`
 
 ```
 [default]
 aws_access_key_id = XXXXXXXXXXXXXXXXXXXX
 aws_secret_access_key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
+
+Note: This project uses the AWS SDK for NodeJS. https://aws.amazon.com/sdk-for-node-js/
+
+For more information on generating credentials, see: https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html
 
 ### 3) Tag the AWS volumes you would like to manage
 
